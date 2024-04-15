@@ -18,6 +18,41 @@
                 },
                 "rules": [
                     {
+                        "description": "Swap colon and semicolon",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "semicolon"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "semicolon",
+                                        "modifiers": [
+                                            "left_shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "semicolon",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "shift"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "semicolon"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Action layer",
                         "manipulators": [
                             {
@@ -830,25 +865,6 @@
                                 "type": "basic"
                             }
                         ]
-                    },
-                    {
-                        "description": "Double delete",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "delete_or_backspace"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "delete_or_backspace"
-                                    },
-                                    {
-                                        "key_code": "delete_or_backspace"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
                     }
                 ]
             },
@@ -1093,6 +1109,16 @@
                 {
                     "from": {
                         "key_code": "page_up"
+                    },
+                    "to": [
+                        {
+                            "key_code": "right_control"
+                        }
+                    ]
+                },
+                {
+                    "from": {
+                        "key_code": "right_command"
                     },
                     "to": [
                         {
