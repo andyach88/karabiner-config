@@ -1092,7 +1092,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "left_shift"
+                            "key_code": "vk_none"
                         }
                     ]
                 },
@@ -1103,16 +1103,6 @@
                     "to": [
                         {
                             "key_code": "tab"
-                        }
-                    ]
-                },
-                {
-                    "from": {
-                        "key_code": "page_up"
-                    },
-                    "to": [
-                        {
-                            "key_code": "right_control"
                         }
                     ]
                 },
