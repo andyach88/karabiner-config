@@ -102,52 +102,6 @@
                                             "key_code": "d"
                                         },
                                         {
-                                            "key_code": "k"
-                                        }
-                                    ]
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "return_or_enter"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    },
-                                    "simultaneous": [
-                                        {
-                                            "key_code": "d"
-                                        },
-                                        {
-                                            "key_code": "f"
-                                        }
-                                    ]
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "return_or_enter"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    },
-                                    "simultaneous": [
-                                        {
-                                            "key_code": "d"
-                                        },
-                                        {
                                             "key_code": "n"
                                         }
                                     ]
@@ -279,6 +233,98 @@
                     {
                         "description": "Symbol layer",
                         "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "d"
+                                        },
+                                        {
+                                            "key_code": "k"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "c"
+                                        },
+                                        {
+                                            "key_code": "v"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "c"
+                                        },
+                                        {
+                                            "key_code": "comma"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    },
+                                    "simultaneous": [
+                                        {
+                                            "key_code": "v"
+                                        },
+                                        {
+                                            "key_code": "m"
+                                        }
+                                    ]
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "escape"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
                             {
                                 "from": {
                                     "modifiers": {
@@ -453,7 +499,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "escape"
+                                        "key_code": "delete_or_backspace"
                                     }
                                 ],
                                 "type": "basic"
